@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="asset/bootstrap.min.css">
+        <title>Document</title>
+    </head>
+    <body id="body"">
+
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <p id="ratio"></p>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label class="form-label">Red</label>
+                                <input type="range" id="red" class="form-control" min="0" max="255">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Green</label>
+                                <input type="range" id="green" class="form-control" min="0" max="255">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Blue</label>
+                                <input type="range" id="blue" class="form-control" min="0" max="255">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+
+        <script src="asset/script.js"></script>
+    </body>
+</html>
